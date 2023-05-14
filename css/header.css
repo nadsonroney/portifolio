@@ -1,0 +1,42 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #f5f5f5;
+   padding: 10px;
+ 
+  }
+
+.header img {
+  max-width: 50px;
+}
+
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap: 30px;
+  margin-right: 20px;
+ }
+
+.header-menu a {
+  display: grid;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  gap: 30px;
+}
+
+.header div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .header {
+  flex-direction: column;
+}
+.header div {
+ margin-bottom: 20px;}
+}
